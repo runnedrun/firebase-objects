@@ -2,8 +2,7 @@
 
 var newProduct = {
   name: "cool thing",
-  picture: "www.gogole.com",
-  
+  picture: "www.gogole.com"
 }
 
 onNewListItem("product-list", function(product) {
