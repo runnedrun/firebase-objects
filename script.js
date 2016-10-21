@@ -1,5 +1,10 @@
 //addListItem("product-list", {name: "cool product"})
 
+var newProduct = {
+  name: "cool thing",
+  picture: "www.gogole.com",
+  
+}
 
 onNewListItem("product-list", function(product) {
   console.log(product.picture)
