@@ -1,5 +1,7 @@
 //addListItem("product-list", {name: "cool product"})
 
+
+
 onNewListItem("product-list", function(product) {
   console.log("")
   var nameHeader = $("<h1 class='product-name'>" + product.name + "</h1>")
